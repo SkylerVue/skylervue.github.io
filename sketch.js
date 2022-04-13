@@ -1,5 +1,6 @@
 let img1;
 
+let a;
 function preload(){
   cloud = createImg("Images/Cloud.png", "A cloud");
   websiteHeading = createP("Rain drop sized news");
