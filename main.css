@@ -30,6 +30,8 @@ body {
 
 #top p{
   z-index: 10;
+  font-size: 18px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 #topLeft{
@@ -121,40 +123,18 @@ body {
   text-align: center;
   object-fit: contain;
   grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 6;
 }
 #mainBody img{
-  max-width: 25%;
-  max-height: 25%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #mainBody p{
   grid-column-start: 2;
   grid-column-end: 4;
   font-size: 18px;
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-
-#mainBodyRight{
-  display: flex;
-  flex-direction: column;
-  border-bottom: medium solid #000000;
-  align-items: center;
-  justify-content: space-around;
-  object-fit: contain;
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 6;
-}
-#mainBodyRight img{
-  box-shadow: 10px 5px 5px grey;
-  max-width: 75%;
-  max-height: 75%;
-}
-
-#mainBodyRight p{
   font-family: "Lucida Console", "Courier New", monospace;
 }
